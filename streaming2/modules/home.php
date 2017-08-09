@@ -45,6 +45,7 @@
                       <source src=\"". $dir . $file ."\" type=\"video/mp4\">
                       <source src=\"". $dir . $file ."\" type=\"video/ogg\">
                       <source src=\"". $dir . $file ."\" type=\"video/mkv\">
+                      <source src=\"". $dir . $file ."\" type=\"video/3gpp\">
                       ";
                       ?>
                     </video>
