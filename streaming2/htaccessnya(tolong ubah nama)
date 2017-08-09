@@ -3,15 +3,11 @@ RewriteEngine on
 
 RewriteRule ^$ index.php?p=home [L]
 
-#contoh
+#for play url
 RewriteRule ^play-(.*)$ index.php?p=play&video=$1 [L]
 
 Options All -Indexes
 </IfModule>
-
-
-
-
 
 <FilesMatch "\.(txt|php)$">
     Order Allow,Deny
