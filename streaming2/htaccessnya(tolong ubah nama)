@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^$ index.php?p=home [L]
+
+#contoh
+RewriteRule ^play-(.*)$ index.php?p=play&video=$1 [L]
+
+Options All -Indexes
+</IfModule>
+
+
+
+
+
+<FilesMatch "\.(txt|php)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "(robots\.txt|index\.php|content\.php|form\.php|action\.php|rss\.php)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
