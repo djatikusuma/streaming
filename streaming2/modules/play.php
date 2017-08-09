@@ -81,6 +81,7 @@
           <source src="videos/<?php echo $_GET['video']; ?>" type="video/mkv">
           <source src="videos/<?php echo $_GET['video']; ?>" type="video/mov">
           <source src="videos/<?php echo $_GET['video']; ?>" type="video/avi">
+	  <source src="videos/<?php echo $_GET['video']; ?>" type="video/3gpp">
           <track label="Indonesia" kind="subtitles" srclang="id" src="subtitle/<?php echo $sub; ?>.vtt" default>
           <!--
           <track src="subtitle/<?php //echo $sub; ?>.srt" kind="subtitles" srclang="en" label="Indonesia" default>
